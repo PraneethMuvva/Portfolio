@@ -30,37 +30,30 @@ const ProjectCard = ({ title, technologies, duration, achievements }: ProjectCar
 const PortfolioSection = () => {
   const projects = [
     {
-      title: "Poker Luck Tracker",
-      technologies: "Python, Flask, React, MongoDB, Numpy",
-      duration: "Aug 2025 – Present",
+      title: "SpeakWare: Smart Wearable for Real-World Language Practice",
+      technologies: "Embedded Systems, C++, Python",
+      duration: "2025 - Present",
       achievements: [
-        "Devised a full-stack web app allowing players to record poker hands and evaluate \"luck\" via <strong>Monte Carlo simulations</strong>, benchmarking outcomes against theoretical hand distributions to generate session and lifetime metrics",
-        "Spearheaded backend modeling with <strong>Flask and Numpy</strong> for probabilistic analysis, and coded a dynamic <strong>React frontend</strong> with MongoDB integration to visualize performance trends over time"
+        "Developing a <strong>wearable device</strong> that captures real-world speech to help non-native speakers improve fluency and pronunciation through everyday conversations",
+        "Building a <strong>cloud-based system</strong> that provides automatic transcription, pronunciation analysis, and personalized language feedback from recorded audio",
+        "Implementing <strong>privacy-first design</strong> with encryption and secure data handling to protect user conversations throughout the learning process"
       ]
     },
     {
-      title: "5-Stage Pipelined CPU Design",
-      technologies: "Verilog, FPGA, Digital Design",
-      duration: "Aug 2025 – Present",
+      title: "Mini TPU on FPGA",
+      technologies: "Verilog, FPGA, Digital Design, Python",
+      duration: "2025",
       achievements: [
-        "Created a <strong>5-stage pipelined RISC CPU</strong> (IF, ID, EX, MEM, WB) in <strong>Verilog</strong>, and deployed on a Xilinx FPGA",
-        "Integrated <strong>hazard detection, forwarding, and branch prediction</strong> units, achieving correct execution with an average <strong>CPI of 1.15</strong> across benchmark programs",
-        "Verified CPU functionality via <strong>cycle-accurate simulation</strong> and FPGA hardware debugging with Vivado"
-      ]
-    },
-    {
-      title: "FreightSwipe",
-      technologies: "TypeScript, React Native",
-      duration: "Jul 2025 – Aug 2025",
-      achievements: [
-        "Developed a cross-platform <strong>React Native app</strong> with Expo, enabling shippers and truckers to connect through a <strong>Tinder-like swiping interface</strong> to match freight loads",
-        "Integrated <strong>Supabase</strong> for real-time data synchronization, secure authentication, and scalable backend services"
+        "Developed a <strong>hardware-generating neural accelerator</strong> that converts trained PyTorch models into optimized <strong>Verilog pipelines</strong> for FPGA deployment",
+        "Built and integrated a <strong>5-stage pipelined RISC CPU</strong> with <strong>hazard detection, forwarding, and modified Booth's multiplications",
+        "Designed custom <strong>MAC, ReLU, and Argmax</strong> modules for parallel neural inference, verified through <strong>cycle-accurate simulation</strong> and FPGA debugging in Vivado",
+        "Created Python tooling to <strong>generate layer-specific hardware and weights</strong>, enabling real-time, low-latency inference on a <strong>Xilinx FPGA</strong>"
       ]
     },
     {
       title: "Automatic Flag Raising System",
       technologies: "OnShape, KiCAD, C/C++, Arduino, HTML/CSS",
-      duration: "Aug 2024 – May 2025",
+      duration: "2024-2025",
       achievements: [
         "Engineered an <strong>IoT-enabled flagpole device</strong> with motor-driven pulley system enabling remote flag raising and lowering through precise electronic control and embedded systems programming",
         "Built and tested circuits on solderable breadboards and designed matching <strong>PCB schematics using KiCAD</strong>",
@@ -70,21 +63,13 @@ const PortfolioSection = () => {
     {
       title: "ML Venom Protein Screening Tool",
       technologies: "Python, TensorFlow",
-      duration: "Aug 2022 – May 2023",
+      duration: "2022-2023",
       achievements: [
         "Designed and tuned an <strong>artificial neural network</strong> capable of screening de novo amino acid sequences of animal venom proteins, achieving <strong>96% prediction accuracy</strong> for molecular function",
         "Presented tool to industry experts and published a report on <strong>SSRN</strong> gaining 250+ views and 50+ downloads",
         "<strong>Awarded finalist at 2023 International Science and Engineering Fair</strong> in Computational Biology and Bioinformatics"
       ]
     },
-    {
-      title: "Deep Learning Driver Drowsiness Detection",
-      technologies: "Python, PyTorch, Flask, HTML/CSS",
-      duration: "Jun 2022 – Jul 2022",
-      achievements: [
-        "Collaborated with a team of six to construct a <strong>computer vision machine learning tool</strong> which categorizes drowsiness of people with <strong>94% accuracy</strong>, and deployed the model onto a Flask web app"
-      ]
-    }
   ];
 
   return (

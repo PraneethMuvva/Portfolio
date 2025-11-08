@@ -11,10 +11,11 @@ const HeroSection = () => (
     <div className="text-lg text-base-content/70 mb-12 max-w-2xl animate-[slideUp_1s_ease-out_0.4s_both]">
       <ReactTyped
         strings={[
-          "Engineering Scalable Software & Smart Hardware Solutions",
-          "Building AI-Powered Applications",
-          "Designing Efficient Digital Systems",
-          "Creating Full-Stack Web Applications"
+          "Designing Systems Where Hardware Meets Intelligence",
+          "Engineering Devices that Learn, Adapt, and Interact",
+          "Exploring How Code Shapes the Physical World",
+          "Building Embedded Solutions that Think for Themselves",
+          "Curious About Everything Between Silicon and Software"
         ]}
         typeSpeed={50}
         backSpeed={30}

@@ -27,28 +27,29 @@ const AboutSection = () => {
   <div className="max-w-7xl mx-auto px-4">
     <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
     <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-stretch">
-      <div className="lg:col-span-3 card bg-base-200 shadow-lg p-8 hover:-translate-y-1 hover:shadow-xl transition-all duration-200">
+      <div className="lg:col-span-3 card bg-base-200 shadow-lg p-8 hover:-translate-y-1 hover:shadow-xl transition-all duration-200"> 
         <p className="text-lg text-base-content leading-relaxed mb-4">
-          I'm an undergraduate at Duke University studying Electrical & Computer Engineering with a double
-          major in Computer Science. I'm driven toward developing scalable systems, integrating AI into
-          real-world workflows, and building across the full technology stack.
+          Hey there, I’m Praneeth! I was born in Chicago, grew up in Dallas, and am now a Duke undergrad studying 
+          Electrical & Computer Engineering and Computer Science. I’ve always been fascinated by how ideas move from 
+          theory to something tangible, whether that’s a neural network model powering new kinds of healthcare devices 
+          or a full-stack app built for everyday use. Over the years, I’ve explored that spectrum through internships, 
+          lab research, and hands-on projects that connect academic curiosity with real-world impact.
         </p>
         <p className="text-lg text-base-content leading-relaxed mb-4">
-          My academic journey combines electrical engineering precision with computer science innovation.
-          I'm fascinated by the intersection of hardware and software, where low-level optimization
-          meets algorithmic thinking. This dual perspective creates efficient and practical solutions.
+          My background blends hands-on engineering experience with computational problem-solving skills.
+          I’ve worked on projects ranging from adaptive brain stimulation research to embedded flight control systems, 
+          and I enjoy thinking about problems where hardware meets software, or where algorithms have to 
+          hold up under real-world constraints. I see technology not just as code or circuits, but as tools 
+          for solving problems people actually face.
         </p>
         <p className="text-lg text-base-content leading-relaxed mb-4">
-          My research focuses on machine learning applications, from biosignal classification to protein
-          function prediction. I'm drawn to projects that bridge academic theory and practical implementation,
-          asking how technology can augment human decision-making.
-        </p>
-        <p className="text-lg text-base-content leading-relaxed">
-          Outside academics, I stay active through weightlifting, triathlon, and taekwondo. I enjoy poker
-          and follow the Dallas Mavericks and Duke Blue Devils, appreciating teamwork in both sports and
-          engineering projects.
+          Outside of academics, I like challenging myself in other ways too—through weightlifting, triathlons, 
+          and taekwondo. I also enjoy hiking the National Parks, diving into strategy games with friends, and 
+          experimenting in the kitchen. For me, whether it’s athletics, games, or engineering projects, it’s 
+          all about testing limits and finding new paths.
         </p>
       </div>
+
 
       <div className="lg:col-span-2 flex flex-col justify-center lg:pl-4">
         <div className="relative mx-auto lg:ml-auto lg:mr-0 mb-4 w-[28rem]">

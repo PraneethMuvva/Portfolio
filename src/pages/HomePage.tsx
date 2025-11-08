@@ -3,7 +3,7 @@ import {
   HeroSection,
   AboutSection,
   ExperienceSection,
-  TechStackSection,
+  // TechStackSection,
   PortfolioSection,
   // HobbiesSection,
   ContactSection,
@@ -39,15 +39,15 @@ const HomePage = () => (
       <PortfolioSection />
     </Section>
 
-    <Section id="tech-stack" className="bg-base-200">
+    {/* <Section id="tech-stack" className="bg-base-200">
       <TechStackSection />
-    </Section>
+    </Section> */}
 
     {/* <Section id="hobbies" className="bg-base-100">
       <HobbiesSection />
     </Section> */}
 
-    <Section id="contact" className="bg-base-100">
+    <Section id="contact" className="bg-base-200">
       <ContactSection />
     </Section>
   </div>
